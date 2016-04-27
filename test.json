@@ -1,22 +1,840 @@
-{
-    "glossary": {
-        "title": "example glossary",
-		"GlossDiv": {
-            "title": "S",
-			"GlossList": {
-                "GlossEntry": {
-                    "ID": "SGML",
-					"SortAs": "SGML",
-					"GlossTerm": "Standard Generalized Markup Language",
-					"Acronym": "SGML",
-					"Abbrev": "ISO 8879:1986",
-					"GlossDef": {
-                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
-						"GlossSeeAlso": ["GML", "XML"]
-                    },
-					"GlossSee": "markup"
-                }
-            }
+[
+  { "Spiele":
+  [
+    {
+      "Phase":1, "Date": "Fri Jun 10 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade de France, Saint-Denis", "Gruppe": "A",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "FRA",
+          "Mannschaft": "Frankreich",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "ROU",
+          "Mannschaft": "Rumänien",
+          "AnzahlTore": null
+
         }
+      ]
+    },
+    {
+      "Phase":1, "Date": "Sat Jun 11 2016 15:00:00 GMT+0200 (CEST)", "Ort": "Stade Bollaert-Delelis, Lens Agglo", "Gruppe": "A",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "ALB",
+          "Mannschaft": "Albanien",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "SUI",
+          "Mannschaft": "Schweiz",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":1, "Date": "Sat Jun 11 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Stade de Bordeaux, Bordeaux", "Gruppe": "B",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "WAL",
+          "Mannschaft": "Wales",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "SLO",
+          "Mannschaft": "Slowakei",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":1, "Date": "Sat Jun 11 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade Vélodrome, Marseille", "Gruppe": "B",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "ENG",
+          "Mannschaft": "England",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "RUS",
+          "Mannschaft": "Russland",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":1, "Date": "Sun Jun 12 2016 15:00:00 GMT+0200 (CEST)", "Ort": "Parc des Princes, Paris", "Gruppe": "D",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "TUR",
+          "Mannschaft": "Türkei",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "CRO",
+          "Mannschaft": "Kroation",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":1, "Date": "Sun Jun 12 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Stade de Nice, Nizza", "Gruppe": "C",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "POL",
+          "Mannschaft": "Polen",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "NOR",
+          "Mannschaft": "Nordirland",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":1, "Date": "Sun Jun 12 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade Pierre Mauroy, Lille Métropole", "Gruppe": "C",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "GER",
+          "Mannschaft": "Deutschland",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "UKR",
+          "Mannschaft": "Ukraine",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":1, "Date": "Mon Jun 13 2016 15:00:00 GMT+0200 (CEST)", "Ort": "Stadium de Toulouse, Toulouse", "Gruppe": "D",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "ESP",
+          "Mannschaft": "Spanien",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "CZE",
+          "Mannschaft": "Tschechische Rep.",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":1, "Date": "Mon Jun 13 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Stade de France, Saint-Denis", "Gruppe": "E",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "IRL",
+          "Mannschaft": "Republik Irland",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "SWE",
+          "Mannschaft": "Schweden",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":1, "Date": "Mon Jun 13 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade de Lyon, Lyon", "Gruppe": "E",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "BEL",
+          "Mannschaft": "Belgien",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "ITA",
+          "Mannschaft": "Italien",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":1, "Date": "Tue Jun 14 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Stade de Bordeaux, Bordeaux", "Gruppe": "F",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "AUT",
+          "Mannschaft": "Österreich",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "HUN",
+          "Mannschaft": "Ungarn",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":1, "Date": "Tue Jun 14 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade Geoffroy Guichard, Saint-Étienne", "Gruppe": "F",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "POR",
+          "Mannschaft": "Portugal",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "ISL",
+          "Mannschaft": "Island",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":2, "Date": "Wed Jun 15 2016 15:00:00 GMT+0200 (CEST)", "Ort": "Stade Pierre Mauroy, Lille Métropole", "Gruppe": "B",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "RUS",
+          "Mannschaft": "Russland",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "SLO",
+          "Mannschaft": "Slowakei",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":2, "Date": "Wed Jun 15 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Parc des Princes, Paris", "Gruppe": "A",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "ROU",
+          "Mannschaft": "Rumänien",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "SUI",
+          "Mannschaft": "Schweiz",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":2, "Date": "Wed Jun 15 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade Vélodrome, Marseille", "Gruppe": "A",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "FRA",
+          "Mannschaft": "Frankreich",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "ALB",
+          "Mannschaft": "Albanien",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":2, "Date": "Thu Jun 16 2016 15:00:00 GMT+0200 (CEST)", "Ort": "Stade Bollaert-Delelis, Lens Agglo", "Gruppe": "B",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "ENG",
+          "Mannschaft": "England",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "WAL",
+          "Mannschaft": "Wales",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":2, "Date": "Thu Jun 16 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Stade de Lyon, Lyon", "Gruppe": "C",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "UKR",
+          "Mannschaft": "Ukraine",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "NIR",
+          "Mannschaft": "Nordirland",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":2, "Date": "Thu Jun 16 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade de France, Saint-Denis", "Gruppe": "C",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "GER",
+          "Mannschaft": "Deutschland",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "POL",
+          "Mannschaft": "Polen",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":2, "Date": "Fri Jun 17 2016 15:00:00 GMT+0200 (CEST)", "Ort": "Stadium de Toulouse, Toulouse", "Gruppe": "E",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "ITA",
+          "Mannschaft": "Italien",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "SWE",
+          "Mannschaft": "Schweden",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":2, "Date": "Fri Jun 17 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Stade Geoffroy Guichard, Saint-Étienne", "Gruppe": "D",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "CZE",
+          "Mannschaft": "Tschechische Rep.",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "CRO",
+          "Mannschaft": "Kroatien",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":2, "Date": "Fri Jun 17 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade de Nice, Nizza", "Gruppe": "D",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "ESP",
+          "Mannschaft": "Spanien",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "TUR",
+          "Mannschaft": "Türkei",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":2, "Date": "Sat Jun 18 2016 15:00:00 GMT+0200 (CEST)", "Ort": "Stade de Bordeaux, Bordeaux", "Gruppe": "E",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "BEL",
+          "Mannschaft": "Belgien",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "IRL",
+          "Mannschaft": "Republik Irland",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":2, "Date": "Sat Jun 18 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Stade Vélodrome, Marseille", "Gruppe": "F",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "ISL",
+          "Mannschaft": "Island",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "HUN",
+          "Mannschaft": "Ungarn",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":2, "Date": "Sat Jun 18 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Parc des Princes, Paris", "Gruppe": "F",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "POR",
+          "Mannschaft": "Portugal",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "AUT",
+          "Mannschaft": "Österreich",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":3, "Date": "Sun Jun 19 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade de Lyon, Lyon", "Gruppe": "A",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "ROU",
+          "Mannschaft": "Rumänien",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "ALB",
+          "Mannschaft": "Albanien",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":3, "Date": "Sun Jun 19 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade Pierre Mauroy, Lille Métropole", "Gruppe": "A",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "SUI",
+          "Mannschaft": "Schweiz",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "FRA",
+          "Mannschaft": "Frankreich",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":3, "Date": "Mon Jun 20 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stadium de Toulouse, Toulouse", "Gruppe": "B",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "RUS",
+          "Mannschaft": "Russland",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "WAL",
+          "Mannschaft": "Wales",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":3, "Date": "Mon Jun 20 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade Geoffroy Guichard, Saint-Étienne", "Gruppe": "B",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "SLO",
+          "Mannschaft": "Slowakei",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "ENG",
+          "Mannschaft": "England",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":3, "Date": "Tue Jun 21 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Stade Vélodrome, Marseille", "Gruppe": "C",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "UKR",
+          "Mannschaft": "Ukraine",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "POL",
+          "Mannschaft": "Polen",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":3, "Date": "Tue Jun 21 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Parc des Princes, Paris", "Gruppe": "C",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "IRL",
+          "Mannschaft": "Nordirland",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "GER",
+          "Mannschaft": "Deutschland",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":3, "Date": "Tue Jun 21 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade Bollaert-Delelis, Lens Agglo", "Gruppe": "D",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "CZE",
+          "Mannschaft": "Tschechische Rep.",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "TUR",
+          "Mannschaft": "Türkei",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":3, "Date": "Tue Jun 21 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade de Bordeaux, Bordeaux", "Gruppe": "D",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "CRO",
+          "Mannschaft": "Kroatien",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "ESP",
+          "Mannschaft": "Spanien",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":3, "Date": "Wed Jun 22 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Stade de France, Saint-Denis", "Gruppe": "F",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "ISL",
+          "Mannschaft": "Island",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "AUT",
+          "Mannschaft": "Österreich",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":3, "Date": "Wed Jun 22 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Stade de Lyon, Lyon", "Gruppe": "F",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "HUN",
+          "Mannschaft": "Ungarn",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "POR",
+          "Mannschaft": "Portugal",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":3, "Date": "Wed Jun 22 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade Pierre Mauroy, Lille Métropole", "Gruppe": "E",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "ITA",
+          "Mannschaft": "Italien",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "IRL",
+          "Mannschaft": "Republik Irland",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":3, "Date": "Wed Jun 22 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade de Nice, Nizza", "Gruppe": "E",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "SWE",
+          "Mannschaft": "Schweden",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "BEL",
+          "Mannschaft": "Belgien",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":4, "Date": "Sat Jun 25 2016 15:00:00 GMT+0200 (CEST)", "Ort": "Stade Geoffroy Guichard, Saint-Étienne", "Gruppe": "",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "",
+          "Mannschaft": "2. Gruppe A",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "",
+          "Mannschaft": "2. Gruppe C",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":4, "Date": "Sat Jun 25 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Parc des Princes, Paris", "Gruppe": "",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "",
+          "Mannschaft": "1. Gruppe B",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "",
+          "Mannschaft": "Dritter A/C/D",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":4, "Date": "Sat Jun 25 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade Bollaert-Delelis, Lens Agglo", "Gruppe": "",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "",
+          "Mannschaft": "1. Gruppe D",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "",
+          "Mannschaft": "Dritter B/E/F",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":4, "Date": "Sun Jun 26 2016 15:00:00 GMT+0200 (CEST)", "Ort": "Stade de Lyon, Lyon", "Gruppe": "",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "",
+          "Mannschaft": "1. Gruppe A",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "",
+          "Mannschaft": "Dritter C/D/E",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":4, "Date": "Sun Jun 26 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Stade Pierre Mauroy, Lille Métropole", "Gruppe": "",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "",
+          "Mannschaft": "1. Gruppe C",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "",
+          "Mannschaft": "Dritter A/B/F",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":4, "Date": "Sun Jun 26 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stadium de Toulouse, Toulouse", "Gruppe": "",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "",
+          "Mannschaft": "1. Gruppe F",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "",
+          "Mannschaft": "2. Gruppe E",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":4, "Date": "Mon Jun 27 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Stade de France, Saint-Denis", "Gruppe": "",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "",
+          "Mannschaft": "1. Gruppe E",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "",
+          "Mannschaft": "2. Gruppe D",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":4, "Date": "Mon Jun 27 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade de Nice, Nizza", "Gruppe": "",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "",
+          "Mannschaft": "2. Gruppe B",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "",
+          "Mannschaft": "2. Gruppe F",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":5, "Date": "Thu Jun 30 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade Vélodrome, Marseille", "Gruppe": "",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "",
+          "Mannschaft": "Sieger AF (St-Etienne)",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "",
+          "Mannschaft": "Sieger AF (Lens)",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":5, "Date": "Fri Jul 1 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade Pierre Mauroy, Lille Métropole", "Gruppe": "",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "",
+          "Mannschaft": "Sieger AF (Paris)",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "",
+          "Mannschaft": "Sieger AF (Toulouse)",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":5, "Date": "Sat Jul 2 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade de Bordeaux, Bordeaux", "Gruppe": "",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "",
+          "Mannschaft": "Sieger AF (Lille)",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "",
+          "Mannschaft": "Sieger AF (St-Denis)",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":5, "Date": "Sun Jul 3 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade de France, Saint-Denis", "Gruppe": "",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "",
+          "Mannschaft": "Sieger AF (Lyon)",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "",
+          "Mannschaft": "Sieger AF (Nizza)",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":6, "Date": "Wed Jul 6 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade de Lyon, Lyon", "Gruppe": "",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "",
+          "Mannschaft": "Sieger VF (Marseille)",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "",
+          "Mannschaft": "Sieger VF (Lille)",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":6, "Date": "Thu Jul 7 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade Vélodrome, Marseille", "Gruppe": "",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "",
+          "Mannschaft": "Sieger VF (Bordeaux)",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "",
+          "Mannschaft": "Sieger VF (St-Denis)",
+          "AnzahlTore": null
+        }
+      ]
+    },
+    {
+      "Phase":7, "Date": "Sun Jul 10 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Stade de France, Saint-Denis", "Gruppe": "",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "",
+          "Mannschaft": "Sieger HF (Lyon)",
+          "AnzahlTore": null
+        },
+        {
+          "Flagge": "",
+          "Mannschaft": "Sieger HF (Marseille)",
+          "AnzahlTore": null
+        }
+      ]
+    },
+
+    {
+      "Phase":2, "Date": "Wed Jan 15 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Parc des Princes Paris", "Gruppe": "A",
+      "Mannschaften":
+      [
+        {
+          "Flagge": "ROU",
+          "Mannschaft": "Testland",
+          "AnzahlTore": 3
+        },
+        {
+          "Flagge": "SUI",
+          "Mannschaft": "Vergangenheit",
+          "AnzahlTore": 1
+        }
+      ]
     }
-}
+  ]
+  }
+]
