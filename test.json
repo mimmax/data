@@ -820,7 +820,7 @@
     },
 
     {
-      "Phase":2, "Date": "Wed Jan 15 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Parc des Princes Paris", "Gruppe": "A",
+      "Phase":6, "Date": "Wed Jan 15 2016 18:00:00 GMT+0200 (CEST)", "Ort": "Parc des Princes Paris", "Gruppe": "A",
       "Mannschaften":
       [
         {
@@ -836,7 +836,7 @@
       ]
     },
     {
-      "Phase":2, "Date": "Wed Jan 15 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Mirjams Arena", "Gruppe": "A",
+      "Phase":6, "Date": "Wed Jan 15 2016 21:00:00 GMT+0200 (CEST)", "Ort": "Mirjams Arena", "Gruppe": "A",
       "Mannschaften":
       [
         {
