@@ -8,12 +8,12 @@
         {
           "Flagge": "FRA",
           "Mannschaft": "Frankreich",
-          "AnzahlTore": null
+          "AnzahlTore": 2
         },
         {
           "Flagge": "ROU",
           "Mannschaft": "Rumänien",
-          "AnzahlTore": null
+          "AnzahlTore": 0
 
         }
       ]
