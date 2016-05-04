@@ -92,7 +92,7 @@
           "AnzahlTore": null
         },
         {
-          "Flagge": "NOR",
+          "Flagge": "NIR",
           "Mannschaft": "Nordirland",
           "AnzahlTore": null
         }
@@ -471,7 +471,7 @@
       "Mannschaften":
       [
         {
-          "Flagge": "IRL",
+          "Flagge": "NIR",
           "Mannschaft": "Nordirland",
           "AnzahlTore": null
         },
