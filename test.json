@@ -7,13 +7,13 @@
       [
         {
           "Flagge": "FRA",
-          "Mannschaft": "Frankreich Bla2",
-          "AnzahlTore": 17
+          "Mannschaft": "Frankreich",
+          "AnzahlTore": null
         },
         {
           "Flagge": "ROU",
           "Mannschaft": "Rumänien",
-          "AnzahlTore": 1
+          "AnzahlTore": null
 
         }
       ]
